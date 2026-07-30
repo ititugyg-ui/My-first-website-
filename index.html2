@@ -1,0 +1,138 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My SMM Panel</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #0d6efd;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin: 10px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+        }
+
+        .btn {
+            background-color: #0d6efd;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        .pricing {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 10px;
+            width: 200px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #ccc;
+        }
+
+        .login {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        input {
+            padding: 10px;
+            margin: 5px;
+            width: 200px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>My SMM Panel</h2>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Login</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Buy Followers, Likes & Views</h1>
+    <p>Fast, Cheap & Reliable SMM Services</p>
+    <button class="btn">Buy Now</button>
+</section>
+
+<section class="pricing">
+    <div class="card">
+        <h3>1000 Followers</h3>
+        <p>৳50</p>
+        <button class="btn">Order</button>
+    </div>
+
+    <div class="card">
+        <h3>1000 Likes</h3>
+        <p>৳30</p>
+        <button class="btn">Order</button>
+    </div>
+
+    <div class="card">
+        <h3>1000 Views</h3>
+        <p>৳20</p>
+        <button class="btn">Order</button>
+    </div>
+</section>
+
+<section class="login">
+    <h2>Login</h2>
+    <input type="text" placeholder="Username"><br>
+    <input type="password" placeholder="Password"><br>
+    <button class="btn">Login</button>
+</section>
+
+<footer>
+    <p>© 2026 My SMM Panel</p>
+</footer>
+
+</body>
+</html>
